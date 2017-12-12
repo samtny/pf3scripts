@@ -17,4 +17,10 @@ LOG_FILE=${LOG_DIR}/${LOG_FILENAME}
 
 savelog -n -c ${LOG_ROTATE_DAYS} ${LOG_FILE}
 
+LOG_DIR=${HOME_DIR}/pinfinder_logs/pf3
+LOG_FILENAME=pinfinder.log
+LOG_FILE=${LOG_DIR}/${LOG_FILENAME}
+
+savelog -n -c ${LOG_ROTATE_DAYS} ${LOG_FILE}
+
 exit 0
