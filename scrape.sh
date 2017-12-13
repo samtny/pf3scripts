@@ -10,6 +10,6 @@ else
   php="php"
 fi
 
-${php} -d allow_url_fopen=On ${HOME_DIR}/public_html/pinballfinder.org/pf3/scrape/sources/scrape_pinballmap.php --soft-approve --tidy
+${php} -d allow_url_fopen=On -d display_errors ${HOME_DIR}/public_html/pinballfinder.org/pf3/scrape/sources/scrape_pinballmap.php --soft-approve --tidy
 
 exit 0
